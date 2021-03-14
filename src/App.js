@@ -3,6 +3,7 @@ import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import './App.css';
 import Home from './pages/home';
 import themeObject from './util/Themes';
+import { withAuthenticator } from '@aws-amplify/ui-react'
 
 function App() {
   const theme = createMuiTheme(themeObject);
@@ -16,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthenticator(App);

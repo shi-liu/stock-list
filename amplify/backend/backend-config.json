@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "stocklistc38f6308": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
